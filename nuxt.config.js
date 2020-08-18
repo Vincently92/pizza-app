@@ -1,6 +1,8 @@
 import colors from 'vuetify/es5/util/colors'
 
 const env = require('dotenv').config()
+console.log('env parsed')
+console.log(typeof env.parsed)
 
 export default {
   loading: {
