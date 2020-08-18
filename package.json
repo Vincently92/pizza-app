@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.12.1",
+    "@nuxtjs/vuetify": "^1.11.2",
     "dotenv": "^8.2.0",
     "moment": "^2.27.0",
     "momentjs": "^2.0.0",
