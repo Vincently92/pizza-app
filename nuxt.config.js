@@ -7,7 +7,7 @@ export default {
     color: 'red',
   },
 
-  env: (typeof env.parsed != undefined) ? env.parsed : process.env,
+  env: (typeof env.parsed !== 'undefined') ? env.parsed : process.env,
   /*
   ** Nuxt rendering mode
   ** See https://nuxtjs.org/api/configuration-mode
