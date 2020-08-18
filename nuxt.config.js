@@ -1,15 +1,14 @@
 import colors from 'vuetify/es5/util/colors'
 
-// const env = require('dotenv').config()
-console.log('process.env')
-console.log(process.env)
 
 export default {
   loading: {
     color: 'red',
   },
 
-  // env: env,
+  env: {
+    BACKEND_URL: 'https://leonid-laravel.herokuapp.com/public/api'
+  },
   /*
   ** Nuxt rendering mode
   ** See https://nuxtjs.org/api/configuration-mode
