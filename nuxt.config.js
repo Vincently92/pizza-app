@@ -8,6 +8,7 @@ export default {
   },
 
   env: env.parsed || process.env,
+
   /*
   ** Nuxt rendering mode
   ** See https://nuxtjs.org/api/configuration-mode
