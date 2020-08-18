@@ -70,6 +70,8 @@ export default {
     this.$store.commit('cart/setCartFromStorage')
     this.$store.commit('currency/setCurrencyFromStorage')
     this.$store.commit('user/getAccessTokenFromStorage')
+    console.log('process.env')
+    console.log(process.env)
   },
   methods:{
       ...mapActions({
