@@ -1,5 +1,5 @@
 <template>
-  <v-card max-width="344" class="float-md-left ma-4 py-2 px-2" elevation=4>
+  <v-card max-width="344" max-height="460px" class="float-left ma-4 py-2 px-2" elevation=4>
 
     <v-img class="ml-4 " :src="pizza.image"></v-img>
 
